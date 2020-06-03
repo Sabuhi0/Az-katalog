@@ -10,24 +10,53 @@
 </head>
 
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo-az">
-            <img src="./assets/icon/svg/logo-md.svg" alt="">
-        </label>
-        <label class="logo">
-            <img src="./assets/icon/svg/Vector.svg" alt="">
-        </label>
-        <ul>
-            <li><a href="#">Kataloq</a></li>
-            <li><a href="#">Mənbə</a></li>
-            <li><a href="#">Layihə haqqında</a></li>
-            <li><img class="support-us-text" src="./assets/icon/svg/heart-fill-red.svg" alt=""><a href="#">Dəstək ol</a>
-            </li>
-        </ul>
+    <div class="app">
+        <header class="header">
+            <div class="container">
+                <div class="row justify-between align-center">
+                    <div class="header-left">
+                        <div class="header-logo">
+                            <img src="./assets/icon/svg/logo-md.svg" alt="Az kataloq">
+                        </div>
+                        <div class="logo">
+                            <img src="./assets/icon/svg/Vector.svg" alt="Vector">
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-menu">
+                            <ul class="header-menu-list">
+                                <li class="header-menu-item">
+                                    <a class="nav-link" href="kataloq">
+                                        Kataloq
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a class="nav-link" href="menbe">
+                                        Mənbə
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a class="nav-link" href="layihe-haqqinda">
+                                        Layihə haqqında
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a class="nav-link support-us" href="destek-ol">
+                                        <img src="./assets/icon/svg/heart-fill-red.svg" />
+                                        <span class="support-us-text">Dəstək ol</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div>
+                                <label for="check" class="checkbtn">
+                                    <img src="./assets/icon/svg/burger-white.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="container">
             <div class="section-search">
                 <div class="search-section">
@@ -35,56 +64,50 @@
                         <img src="./assets/icon/svg/search-icon.svg" alt="">
                     </div>
                     <input class="search-input" type="text">
-                    <style>
-                        @media (max-width:952px) {
-                            .search-clear {
-                                display: none;
-                            }
-                        }
-                    </style>
                     <div class="search-clear">
-                        <img class="clear-btn" src="./assets/icon/svg/clear.svg" alt="">
+                        <img src="./assets/icon/svg/clear.svg" alt="">
                     </div>
                 </div>
                 <button class="search-btn">
                     Axtar
                     <button class="icon-btn">
-                        <i class='fas fa-search' style='font-size:20px'></i>
+                        <img src="./assets/icon/svg/search-white.svg" alt="">
                     </button>
                 </button>
             </div>
+        </div>
+        <div class="container">
             <div class="box">
-                <p><b class="kutu">Məsələn,</b><span class="cities">cümhuriyyət</span></p>
-                <p><b>Ətraflı axtarış</b></p>
+                <p><b class="box-2">Məsələn,</b><span class="box-3">cümhuriyyət</span></p>
+                <p><b class="box-4">Ətraflı axtarış</b></p>
             </div>
-            <div>
-                <div class="container-img" >
-                    <div class="img-section">
-                        <div class="images-box">
-                            <img class=" img" src="./assets/images/randomImage-1.png" alt="">
-                            <div class="images-text">
-                                <p class="wrapper">Foto və neqativlər</p>
-                                <p class="word">3455 eksponat</p>
-                            </div>
-                        </div>
-                        <div class="images-box">
-                            <img class=" img" src="./assets/images/randomImage-2.png" alt="">
-                            <div class="images-text">
-                                <p class="wrapper">Kitab,qəzet və jurnallar</p>
-                                <p class="word">10867 eksponat</p>
-                            </div>
-                        </div>
-                        <div class="images-box">
-                            <img class="img" src="./assets/images/randomImage-3.png" alt="">
-                            <div class="images-text">
-                                <p class="wrapper">Rəsm və qrafika</p>
-                                <p class="word">455 eksponat</p>
-                            </div>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="img-section">
+                <div class="images-box">
+                    <img src="./assets/images/randomImage-1.png" alt="">
+                    <div class="images-text">
+                        <p class="word">Foto və neqativlər</p>
+                        <p class="eksponat">3455 eksponat</p>
+                    </div>
+                </div>
+                <div class="images-box">
+                    <img src="./assets/images/randomImage-2.png" alt="">
+                    <div class="images-text">
+                        <p class="word">Kitab,qəzet və jurnallar</p>
+                        <p class="eksponat">10867 eksponat</p>
+                    </div>
+                </div>
+                <div class="images-box">
+                    <img src="./assets/images/randomImage-3.png" alt="">
+                    <div class="images-text">
+                        <p class="word">Rəsm və qrafika</p>
+                        <p class="eksponat">455 eksponat</p>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 </body>
+
 </html>
