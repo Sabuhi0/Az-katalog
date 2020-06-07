@@ -174,7 +174,7 @@ body {
 }
 
 /*---Box---*/
-.cities {
+.box-3 {
     color: #1F1C1C;
     padding: 4px;
     text-decoration-line: underline;
@@ -204,7 +204,7 @@ body {
         text-align: center;
     }
 
-    .box-3 {
+    .box-4 {
         width: 100%;
         padding-right: 32px;
         font-weight: bold;
@@ -237,6 +237,10 @@ body {
     font-weight: bold;
 }
 
+.images-box > img {
+    width: 100%;
+    }
+
 .word {
     font-size: 48px;
     line-height: 45px;
@@ -259,6 +263,10 @@ body {
     .class>img {
         width: 100%;
     }
+
+    .images-box > img {
+        width: 100%;
+        }
 
     .images-text {
         width: 100%;
