@@ -11,7 +11,9 @@ ul li {
     list-style: none;
 }
 
+
 /* Common class. */
+
 .container {
     max-width: 1240px;
     width: 100%;
@@ -43,11 +45,11 @@ body {
 
 
 /*---Header section---*/
+
 .header {
     width: 100%;
     height: 50px;
     background: #1f1f1f;
-    ;
 }
 
 .header .row {
@@ -78,7 +80,9 @@ body {
     margin-right: 20px;
 }
 
+
 /*---Search---*/
+
 .section-search {
     height: 40px;
     padding-top: 26px;
@@ -115,6 +119,11 @@ body {
     padding-right: 14px;
 }
 
+.search-icon img,
+.search-clear img {
+    width: 16px;
+}
+
 .logo {
     display: none;
 }
@@ -135,11 +144,9 @@ body {
     .header-logo {
         display: none;
     }
-
     .logo {
         display: block;
     }
-
     .icon-btn {
         color: white;
         background-color: #5A99C1;
@@ -149,15 +156,12 @@ body {
         font-weight: bold;
         border-radius: 0px 5px 5px 0px;
     }
-
     .header-menu-list {
         display: none;
     }
-
     .search-btn {
         display: none;
     }
-
     .search-clear {
         display: none;
     }
@@ -167,13 +171,14 @@ body {
     .checkbtn {
         display: block;
     }
-
     .word {
         display: block;
     }
 }
 
+
 /*---Box---*/
+
 .box-3 {
     color: #1F1C1C;
     padding: 4px;
@@ -199,11 +204,9 @@ body {
     .box-2 {
         display: none;
     }
-
     .box {
         text-align: center;
     }
-
     .box-4 {
         width: 100%;
         padding-right: 32px;
@@ -211,7 +214,9 @@ body {
     }
 }
 
+
 /*---images---*/
+
 .img-section {
     display: flex;
     position: relative;
@@ -237,9 +242,9 @@ body {
     font-weight: bold;
 }
 
-.images-box > img {
+.images-box>img {
     width: 100%;
-    }
+}
 
 .word {
     font-size: 48px;
@@ -251,32 +256,25 @@ body {
     .eksponat {
         display: none;
     }
-
     .images-box:not(:first-child) {
         margin-left: 0px;
     }
-
     .img-section {
         display: inline-table;
     }
-
     .class>img {
         width: 100%;
     }
-
-    .images-box > img {
+    .images-box>img {
         width: 100%;
-        }
-
+    }
     .images-text {
         width: 100%;
     }
-
     .word {
         font-size: 20px;
         margin-bottom: 0px;
     }
-
     .images-box {
         width: 100%;
         height: 50px;
